@@ -64,7 +64,6 @@ def login_btp(btpUsecase):
     myemail = btpUsecase.myemail
     password = btpUsecase.mypassword
     globalaccount = btpUsecase.globalaccount
-    btpCliRegion = btpUsecase.btpcliapihostregion
 
     command = (
         "btp login --url 'https://cli.btp.cloud.sap'"
